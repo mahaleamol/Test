@@ -1,7 +1,7 @@
 resources:
   repositories:
   - repository: Myrepo  # identifier (A-Z, a-z, 0-9, and underscore)
-    type: github  # see the following "Type" topic
+    type: GitHub  # see the following "Type" topic
     name: Test  # repository name (format depends on `type`)
 #    ref: string  # ref name to use; defaults to 'refs/heads/main'
     endpoint: github-ms  # name of the service connection to use (for types that aren't Azure Repos)
